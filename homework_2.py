@@ -1,0 +1,6 @@
+s = int(input('number'))
+a = int(s / 1000)
+b = int(s / 100 % 10)
+c = int(s / 10 % 10 % 10)
+d = int(s % 10)
+print(d * 1000 + c * 100 + b * 10 + a)

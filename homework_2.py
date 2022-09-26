@@ -1,0 +1,6 @@
+a = int(input('first number'))
+b = int(input('second number'))
+c = int(input('third number'))
+d = int(input('fourth number'))
+x = (a*b*c*d)
+print(x)
